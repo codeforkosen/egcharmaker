@@ -1,0 +1,92 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+</head>
+<body>
+<script type="module">
+window.onload = async () => {
+  const cr = tag => document.createElement(tag);
+  const clear = comp => {
+    while (comp.hasChildNodes()) {
+        comp.removeChild(comp.lastChild);
+    }
+  };
+
+  const h1 = cr("h1");
+  h1.textContent = "egcharmaker";
+  document.body.appendChild(h1);
+
+  let sels = [];
+  const imgdiv = cr("div");
+  imgdiv.style.display = "inline-block";
+  imgdiv.style.margin = "10px";
+  imgdiv.style.height = "200px";
+  document.body.appendChild(imgdiv);
+
+  const res = await (await fetch("./res/res.json")).json();
+  const chlist = res["CharacterManaJ_0.998"].characters;
+  const chsel = cr("select");
+  document.body.appendChild(chsel);
+  const optdiv = cr("div");
+  document.body.appendChild(optdiv);
+  for (const s in chlist) {
+    if (!chlist[s]) {
+      continue;
+    }
+    const opt = cr("option");
+    opt.textContent = s;
+    opt.list = chlist[s];
+    chsel.appendChild(opt);
+    chsel.onchange = function () {
+      sels = [];
+      const d = this.selectedOptions[0].list;
+      clear(optdiv);
+      for (const s in d) {
+        if (!d[s]) {
+          continue;
+        }
+        console.log(s);
+        const div = cr("div");
+        optdiv.appendChild(div);
+        const lbl = cr("span");
+        lbl.textContent = s;
+        div.appendChild(lbl);
+        const optsel = cr("select");
+        optsel.onchange = draw;
+        optsel.imgdir = s;
+        sels.push(optsel);
+        div.appendChild(optsel);
+        const d2 = d[s];
+        const opt = cr("option");
+        opt.textContent = "-";
+        optsel.appendChild(opt);
+        for (const s2 in d2) {
+          const opt = cr("option");
+          opt.textContent = s2;
+          optsel.appendChild(opt);
+        }
+      }
+      draw();
+    };
+  }
+
+  const draw = () => {
+    console.log("draw");
+    clear(imgdiv);
+    const d = chsel.selectedOptions[0].list;
+    for (const s of sels) {
+      if (s.value == "-") {
+        continue;
+      }
+      console.log(s.value);
+      const img = new Image();
+      const path = "./res/ぴぽや32×32キャラチップ素材(キャラクターなんとかJ用)/CharacterManaJ_0.998/characters/" + chsel.selectedOptions[0].textContent + "/" + s.imgdir + "/" + s.value;
+      //const path = "";
+      console.log(path);
+      img.src = path;
+      img.style.position = "absolute";
+      imgdiv.appendChild(img);
+    }
+  };
+};
+</script>
+
+</body>

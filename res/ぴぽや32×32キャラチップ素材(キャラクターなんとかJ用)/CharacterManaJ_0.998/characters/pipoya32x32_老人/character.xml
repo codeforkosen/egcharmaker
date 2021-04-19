@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="pipoya32x32charaset" rev="2018-11-06_235524" version="1.0" xsi:schemaLocation="http://charactermanaj.sourceforge.jp/schema/charactermanaj character.xsd" xmlns="http://charactermanaj.sourceforge.jp/schema/charactermanaj">
+    <name xml:lang="ja">ぴぽや32ｘ32_老人</name>
+    <information>
+        <author xml:lang="ja">ぴぽや</author>
+        <description xml:lang="ja">フリーソフト『キャラクターなんとかJ』に対応したキャラチップパーツ画像素材です。
+
+１コマ32×32サイズ　４方向３パターンアニメのキャラチップ画像が生成できます。
+
+収録内容は以下のとおりです。
+　○「ぴぽや32ｘ32_男女」
+　　普通の男女キャラが作れます。メインはこちらのためパーツの種類が多いです。
+
+　○「ぴぽや32ｘ32_子供」
+　　子供の男女キャラが作れます。パーツの種類が少ないです。
+
+　○「ぴぽや32ｘ32_老人」
+　　老人の男女キャラが作れます。パーツの種類が少ないです。
+
+　○「ぴぽや32ｘ32_猫にん」
+　　猫キャラ・熊キャラが作れます。パーツの種類はそこそこあります。
+
+
+
+『キャラクターなんとかJ』及び使用法に関して、詳しくは下記の記事を参照してください。
+キャラクターなんとかJ プロジェクト日本語トップページ - OSDN
+https://ja.osdn.net/projects/charactermanaj/
+
+キャラクターなんとかJの使い方(ぴぽやフレンズ素材向け) - ぴぽや倉庫
+https://pipoya.net/sozai/%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e3%81%aa%e3%82%93%e3%81%a8%e3%81%8bj%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%b4%e3%81%bd%e3%82%84%e3%83%95%e3%83%ac%e3%83%b3%e3%82%ba%e7%b4%a0/
+
+
+以前のパーツの更新履歴はこちらをご覧ください。
+どういうパーツがあるか参考になると思います。
+ぴぽや32×32グラフィック合成器用パーツ　基本セット修正版 : ぴぽや
+http://blog.pipoya.net/blog-entry-517.html
+
+
+パーツの構成や『キャラクターなんとかJ』の設定などはこちらの都合で変更する可能性があります。
+
+
+●利用条件
+「営利・非営利問わずの利用OK」
+「年齢制限コンテンツ利用OK」
+「加工OK」
+「二次配布OK（ただし素材そのものの商用販売は禁止）」
+「スタッフロールなどへの名前の記述・使用連絡不要」
+「デジタル・アナログいかなる環境でも使用可能」
+
+利用条件に関して、詳しくはこちらをご確認ください。
+素材利用規約 - ぴぽやblog
+https://pipoya.net/blog/%e7%b4%a0%e6%9d%90%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/
+
+
+ぴぽや
+https://pipoya.net/</description>
+    </information>
+    <image-size>
+        <width>96</width>
+        <height>128</height>
+    </image-size>
+    <settings>
+        <entry key="watch-dir">true</entry>
+    </settings>
+    <categories>
+        <category id="body" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">■ スキン</display-name>
+            <layers>
+                <layer id="body_back">
+                    <display-name xml:lang="ja">スキン</display-name>
+                    <order>200</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>■肌</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="hair_front" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">■ 髪</display-name>
+            <layers>
+                <layer id="hair_front_accessory">
+                    <display-name xml:lang="ja">髪$</display-name>
+                    <order>45</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>★髪$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="hair_front">
+                    <display-name xml:lang="ja">髪</display-name>
+                    <order>465</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>★髪</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cate15d663a-d30a-4169-aea6-24c384eb3b22" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　髪(帽子用)</display-name>
+            <layers>
+                <layer id="lay0941cbc6-a706-487d-a6b0-cc6698985974">
+                    <display-name xml:lang="ja">髪(帽子用)$</display-name>
+                    <order>40</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>★髪(帽子用)$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay312aba5d-266d-4e25-8209-21eb8ba9d4e4">
+                    <display-name xml:lang="ja">髪(帽子用)</display-name>
+                    <order>470</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>★髪(帽子用)</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat5baa5de3-1d2c-468b-b777-e71237749feb" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　＋髪</display-name>
+            <layers>
+                <layer id="lay9b03be07-12e8-417a-bf23-2f7a46656fc1">
+                    <display-name xml:lang="ja">髪追加$</display-name>
+                    <order>30</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>髪追加$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layaa91279e-3e98-4c91-91e3-36e570076859">
+                    <display-name xml:lang="ja">髪追加</display-name>
+                    <order>480</order>
+                    <colorGroup init-sync="true" refid="color-hair"/>
+                    <dir>髪追加</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="eye" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">■ 目</display-name>
+            <layers>
+                <layer id="eye">
+                    <display-name xml:lang="ja">目</display-name>
+                    <order>440</order>
+                    <dir>●目</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat09621a5c-9689-483c-a40a-7748402b2b02" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　メイク</display-name>
+            <layers>
+                <layer id="layc499ec99-6abb-4928-94f9-af7392657526">
+                    <display-name xml:lang="ja">メイク</display-name>
+                    <order>435</order>
+                    <dir>メイク</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat033cb06d-fbd4-46ee-a594-48beac67aada" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　ひげ</display-name>
+            <layers>
+                <layer id="layf4b10314-9078-4987-986e-f075b3678d84">
+                    <display-name xml:lang="ja">ひげ</display-name>
+                    <order>455</order>
+                    <colorGroup init-sync="true" refid="cge904ebc1-a1eb-487e-a870-18021dc3b412"/>
+                    <dir>ひげ</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat8b5e521c-4f81-4065-9209-6348545edd6d" multipleSelectable="false">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　耳</display-name>
+            <layers>
+                <layer id="lay73757048-3575-4a4c-b825-699179969de7">
+                    <display-name xml:lang="ja">耳$</display-name>
+                    <order>35</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>耳$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay79ca5391-3b22-468c-9621-3e24b0cd4765">
+                    <display-name xml:lang="ja">耳</display-name>
+                    <order>475</order>
+                    <colorGroup init-sync="true" refid="color-skin"/>
+                    <dir>耳</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat18c1c744-3677-4454-82fc-ccd3151fddb1" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">■ 衣装</display-name>
+            <layers>
+                <layer id="body_front">
+                    <display-name xml:lang="ja">衣装</display-name>
+                    <order>445</order>
+                    <colorGroup init-sync="true" refid="color-dress"/>
+                    <dir>■服</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="head" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　帽子類</display-name>
+            <layers>
+                <layer id="lay26d2ab0f-d3e8-4ad7-a14e-0ed73ee87801">
+                    <display-name xml:lang="ja">帽子類$</display-name>
+                    <order>25</order>
+                    <colorGroup init-sync="true" refid="cg15c48630-6495-48e9-a17f-c555d8d5c788"/>
+                    <dir>帽子$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="head">
+                    <display-name xml:lang="ja">帽子類</display-name>
+                    <order>485</order>
+                    <colorGroup init-sync="true" refid="cg15c48630-6495-48e9-a17f-c555d8d5c788"/>
+                    <dir>帽子</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="accessory" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　めがね類</display-name>
+            <layers>
+                <layer id="layc25a01ee-3efa-4d5a-9d5f-37c50b617875">
+                    <display-name xml:lang="ja">めがね類</display-name>
+                    <order>460</order>
+                    <colorGroup init-sync="true" refid="cg3b5a0103-56ec-4b51-a6ba-db72fbb5bc9d"/>
+                    <dir>めがね</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat0ffb0cc0-cffe-40dd-919b-48c3f43e1eeb" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">　マント類</display-name>
+            <layers>
+                <layer id="lay131f0988-9dd1-4e97-a25d-8e42264ec784">
+                    <display-name xml:lang="ja">マント$</display-name>
+                    <order>50</order>
+                    <colorGroup init-sync="true" refid="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558"/>
+                    <dir>マント$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layb59d7e85-0edc-4d15-94a6-8ec05d5700ed">
+                    <display-name xml:lang="ja">マント</display-name>
+                    <order>450</order>
+                    <colorGroup init-sync="true" refid="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558"/>
+                    <dir>マント</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cate71ead7e-9599-41fa-9e75-4a0c2900e16d" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">尻尾</display-name>
+            <layers>
+                <layer id="lay368be825-0210-43bb-a6b2-c31a0e401749">
+                    <display-name xml:lang="ja">尻尾$</display-name>
+                    <order>55</order>
+                    <colorGroup init-sync="true" refid="cg1923e6f3-9210-4908-8476-ccfc2fbf12ac"/>
+                    <dir>尻尾$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="layfe81346f-6827-4b32-b5f1-48b945d468a3">
+                    <display-name xml:lang="ja">尻尾</display-name>
+                    <order>448</order>
+                    <colorGroup init-sync="true" refid="cg1923e6f3-9210-4908-8476-ccfc2fbf12ac"/>
+                    <dir>尻尾</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat397ec78a-7767-41a6-8abf-30b83c92a92d" multipleSelectable="true">
+            <visible-rows>10</visible-rows>
+            <display-name xml:lang="ja">アイテム</display-name>
+            <layers>
+                <layer id="accessory_front">
+                    <display-name xml:lang="ja">アイテム$</display-name>
+                    <order>20</order>
+                    <colorGroup init-sync="true" refid="cg96939549-e0b1-4fb5-8984-e4bfbae931bb"/>
+                    <dir>アイテム$</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="accessory_back">
+                    <display-name xml:lang="ja">アイテム</display-name>
+                    <order>490</order>
+                    <colorGroup init-sync="true" refid="cg96939549-e0b1-4fb5-8984-e4bfbae931bb"/>
+                    <dir>アイテム</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="catf778ec22-1997-480a-9405-ea537b97fa9f" multipleSelectable="false">
+            <visible-rows>5</visible-rows>
+            <display-name xml:lang="ja">影</display-name>
+            <layers>
+                <layer id="lay1cca723c-6edf-438d-9246-8a85ee06da06">
+                    <display-name xml:lang="ja">影</display-name>
+                    <order>10</order>
+                    <dir>影</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat468ef2ea-52dd-4886-8cba-4e00efee78d8" multipleSelectable="true">
+            <visible-rows>5</visible-rows>
+            <display-name xml:lang="ja">透かし表示</display-name>
+            <layers>
+                <layer id="layf09496dd-3161-44a8-9044-1a3dd8bbe88a">
+                    <display-name xml:lang="ja">透かし表示</display-name>
+                    <order>500</order>
+                    <dir>copyright</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cat09467c16-dc6d-4c49-b4f3-2c1cc0f9f0d6" multipleSelectable="true">
+            <visible-rows>5</visible-rows>
+            <display-name xml:lang="ja">加工用画像</display-name>
+            <layers>
+                <layer id="lay14795317-2d5b-4f87-9bc9-1a7665dd06c0">
+                    <display-name xml:lang="ja">加工用画像_下</display-name>
+                    <order>15</order>
+                    <dir>加工用画像_下</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="lay7304d420-1302-49f0-9da1-f84075e9dc46">
+                    <display-name xml:lang="ja">加工用画像</display-name>
+                    <order>430</order>
+                    <dir>加工用画像</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+                <layer id="laye98fff25-498e-4c0c-85bb-1c22819504d8">
+                    <display-name xml:lang="ja">加工用画像_上</display-name>
+                    <order>495</order>
+                    <dir>加工用画像_上</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+        <category id="cata87059dd-a616-42ab-a8e2-df095ec6fb6a" multipleSelectable="false">
+            <visible-rows>5</visible-rows>
+            <display-name xml:lang="ja">背景画像</display-name>
+            <layers>
+                <layer id="lay85f17c52-7d2d-4985-add5-c921906e35c7">
+                    <display-name xml:lang="ja">背景画像</display-name>
+                    <order>0</order>
+                    <dir>背景画像</dir>
+                    <colorModel>HSY</colorModel>
+                </layer>
+            </layers>
+        </category>
+    </categories>
+    <colorGroups>
+        <colorGroup id="color-skin">
+            <display-name xml:lang="ja">スキン</display-name>
+        </colorGroup>
+        <colorGroup id="cgebb6f47a-ce2c-47fd-9964-59b448dd1e28">
+            <display-name xml:lang="ja">スキン_予備1</display-name>
+        </colorGroup>
+        <colorGroup id="cg6ba7a148-577a-4136-880d-e07645f8335c">
+            <display-name xml:lang="ja">スキン_予備2</display-name>
+        </colorGroup>
+        <colorGroup id="color-hair">
+            <display-name xml:lang="ja">髪</display-name>
+        </colorGroup>
+        <colorGroup id="color-eye">
+            <display-name xml:lang="ja">髪_予備1</display-name>
+        </colorGroup>
+        <colorGroup id="cg6395e8ad-84dc-41c5-b8a3-1444b640cba5">
+            <display-name xml:lang="ja">髪_予備2</display-name>
+        </colorGroup>
+        <colorGroup id="color-dress">
+            <display-name xml:lang="ja">衣装</display-name>
+        </colorGroup>
+        <colorGroup id="cge73679ca-b851-4f9a-b21b-e101dd57e3de">
+            <display-name xml:lang="ja">衣装_予備1</display-name>
+        </colorGroup>
+        <colorGroup id="cgc83ad94d-4924-41b2-8546-1dba19660cfc">
+            <display-name xml:lang="ja">衣装_予備2</display-name>
+        </colorGroup>
+        <colorGroup id="cg15c48630-6495-48e9-a17f-c555d8d5c788">
+            <display-name xml:lang="ja">帽子類</display-name>
+        </colorGroup>
+        <colorGroup id="cg7cea98d0-0272-438e-b59a-e21a0fb224c1">
+            <display-name xml:lang="ja">帽子類_予備</display-name>
+        </colorGroup>
+        <colorGroup id="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558">
+            <display-name xml:lang="ja">マント類</display-name>
+        </colorGroup>
+        <colorGroup id="cg82380b92-2b9b-4d16-b200-e51ce2aa6216">
+            <display-name xml:lang="ja">マント類_予備</display-name>
+        </colorGroup>
+        <colorGroup id="cg3b5a0103-56ec-4b51-a6ba-db72fbb5bc9d">
+            <display-name xml:lang="ja">めがね類</display-name>
+        </colorGroup>
+        <colorGroup id="cg518a73ea-b88b-45d8-8625-26c060f13e9b">
+            <display-name xml:lang="ja">めがね類_予備</display-name>
+        </colorGroup>
+        <colorGroup id="cg96939549-e0b1-4fb5-8984-e4bfbae931bb">
+            <display-name xml:lang="ja">アイテム</display-name>
+        </colorGroup>
+        <colorGroup id="cgdbde207d-1b9a-4d27-a75a-1efa8a93d988">
+            <display-name xml:lang="ja">アイテム_予備</display-name>
+        </colorGroup>
+        <colorGroup id="cge904ebc1-a1eb-487e-a870-18021dc3b412">
+            <display-name xml:lang="ja">ひげ</display-name>
+        </colorGroup>
+        <colorGroup id="cg026c3513-bf58-4ee5-ae8c-12c89a55cff3">
+            <display-name xml:lang="ja">ひげ_予備</display-name>
+        </colorGroup>
+        <colorGroup id="cg1923e6f3-9210-4908-8476-ccfc2fbf12ac">
+            <display-name xml:lang="ja">尻尾</display-name>
+        </colorGroup>
+        <colorGroup id="cg788e8bf5-8f18-48c4-9806-eaa590607959">
+            <display-name xml:lang="ja">尻尾_予備</display-name>
+        </colorGroup>
+    </colorGroups>
+    <recommendations>
+        <recommendation>
+            <description xml:lang="ja">ぴぽや倉庫</description>
+            <URL xml:lang="ja">https://pipoya.net/sozai/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%81%E3%83%83%E3%83%97%EF%BC%92/</URL>
+        </recommendation>
+    </recommendations>
+    <presets default-preset="psc9c49ca4-8d51-4670-805f-3b753753e587">
+        <preset id="ps9667ed09-135b-4665-a202-511bc7232471">
+            <display-name xml:lang="ja">プリセット|旅の老人</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="共有_目007">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="head">
+                <parts name="帽子006_魔法使い">
+                    <color>
+                        <layer refid="head">
+                            <color-group group="cg15c48630-6495-48e9-a17f-c555d8d5c788" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.01" hue="0.51" saturation="-0.45"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="lay26d2ab0f-d3e8-4ad7-a14e-0ed73ee87801">
+                            <color-group group="cg15c48630-6495-48e9-a17f-c555d8d5c788" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.01" hue="0.51" saturation="-0.45"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat033cb06d-fbd4-46ee-a594-48beac67aada">
+                <parts name="ヒゲ001-01">
+                    <color>
+                        <layer refid="layf4b10314-9078-4987-986e-f075b3678d84">
+                            <color-group group="cge904ebc1-a1eb-487e-a870-18021dc3b412" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="-1.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="男_髪001-01">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="-1.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="-1.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat0ffb0cc0-cffe-40dd-919b-48c3f43e1eeb">
+                <parts name="マント001-03">
+                    <color>
+                        <layer refid="lay131f0988-9dd1-4e97-a25d-8e42264ec784">
+                            <color-group group="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="0.58" saturation="-0.32"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="layb59d7e85-0edc-4d15-94a6-8ec05d5700ed">
+                            <color-group group="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="0.58" saturation="-0.32"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="老人_ベース001_髪影なし-03">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat18c1c744-3677-4454-82fc-ccd3151fddb1">
+                <parts name="男_服001_一般人">
+                    <color>
+                        <layer refid="body_front">
+                            <color-group group="color-dress" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.04" hue="0.27" saturation="-0.43"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="ps3241e434-95c5-4cf2-addb-4a3ae1b76af0">
+            <display-name xml:lang="ja">プリセット|おじいさん</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="男_目002">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat033cb06d-fbd4-46ee-a594-48beac67aada">
+                <parts name="ヒゲ001-01">
+                    <color>
+                        <layer refid="layf4b10314-9078-4987-986e-f075b3678d84">
+                            <color-group group="cge904ebc1-a1eb-487e-a870-18021dc3b412" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="男_髪001-01">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat09621a5c-9689-483c-a40a-7748402b2b02">
+                <parts name="メイク001_眉毛-01">
+                    <color>
+                        <layer refid="layc499ec99-6abb-4928-94f9-af7392657526">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat18c1c744-3677-4454-82fc-ccd3151fddb1">
+                <parts name="男_服001_一般人">
+                    <color>
+                        <layer refid="body_front">
+                            <color-group group="color-dress" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="-0.32"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="psc9c49ca4-8d51-4670-805f-3b753753e587">
+            <display-name xml:lang="ja">_素体男</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="男_目001">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="_なし">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="ps19baf34e-3713-49c5-828d-b9300e8776a9">
+            <display-name xml:lang="ja">プリセット|骸骨王</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="共有_目006">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="head">
+                <parts name="帽子002_王冠">
+                    <color>
+                        <layer refid="head">
+                            <color-group group="cg15c48630-6495-48e9-a17f-c555d8d5c788" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="lay26d2ab0f-d3e8-4ad7-a14e-0ed73ee87801">
+                            <color-group group="cg15c48630-6495-48e9-a17f-c555d8d5c788" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="_なし">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat0ffb0cc0-cffe-40dd-919b-48c3f43e1eeb">
+                <parts name="マント001-02">
+                    <color>
+                        <layer refid="lay131f0988-9dd1-4e97-a25d-8e42264ec784">
+                            <color-group group="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="0.58" saturation="-0.32"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="layb59d7e85-0edc-4d15-94a6-8ec05d5700ed">
+                            <color-group group="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="0.58" saturation="-0.32"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="骸骨老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat18c1c744-3677-4454-82fc-ccd3151fddb1">
+                <parts name="男_服001_一般人">
+                    <color>
+                        <layer refid="body_front">
+                            <color-group group="color-dress" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.04" hue="0.27" saturation="-0.43"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="psb15db83f-62f4-4389-b327-eb6ebf053170">
+            <display-name xml:lang="ja">_素体女</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="女_目001">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="_なし">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="psf46279f0-1b42-4e91-81af-4b333150e2fd">
+            <display-name xml:lang="ja">プリセット|おばあさん</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="女_目001">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="女_髪001-01">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="accessory">
+                <parts name="メガネ001-01">
+                    <color>
+                        <layer refid="layc25a01ee-3efa-4d5a-9d5f-37c50b617875">
+                            <color-group group="cg3b5a0103-56ec-4b51-a6ba-db72fbb5bc9d" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.17" hue="-0.2" saturation="-0.27"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat18c1c744-3677-4454-82fc-ccd3151fddb1">
+                <parts name="女_服001_一般人">
+                    <color>
+                        <layer refid="body_front">
+                            <color-group group="color-dress" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="-0.21" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="ps35a9a852-bc76-48fd-846b-4daa8e559148">
+            <display-name xml:lang="ja">プリセット|骸骨</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="共有_目006">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="_なし">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="骸骨老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+        <preset id="psef16eaab-55ba-46a9-a166-07c5f3a31c94">
+            <display-name xml:lang="ja">プリセット|エルフ魔女</display-name>
+            <background-color color="#999999"/>
+            <category refid="eye">
+                <parts name="女_目001">
+                    <color>
+                        <layer refid="eye">
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="head">
+                <parts name="帽子007_魔女">
+                    <color>
+                        <layer refid="head">
+                            <color-group group="cg15c48630-6495-48e9-a17f-c555d8d5c788" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="-0.22" saturation="-0.56"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="lay26d2ab0f-d3e8-4ad7-a14e-0ed73ee87801">
+                            <color-group group="cg15c48630-6495-48e9-a17f-c555d8d5c788" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="-0.22" saturation="-0.56"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cate15d663a-d30a-4169-aea6-24c384eb3b22">
+                <parts name="女_髪001-01">
+                    <color>
+                        <layer refid="lay312aba5d-266d-4e25-8209-21eb8ba9d4e4">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="-0.77" saturation="0.04"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="lay0941cbc6-a706-487d-a6b0-cc6698985974">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="-0.77" saturation="0.04"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="hair_front">
+                <parts name="_なし">
+                    <color>
+                        <layer refid="hair_front">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="-0.77" saturation="0.04"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="hair_front_accessory">
+                            <color-group group="color-hair" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="-0.77" saturation="0.04"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat8b5e521c-4f81-4065-9209-6348545edd6d">
+                <parts name="耳001-01">
+                    <color>
+                        <layer refid="lay73757048-3575-4a4c-b825-699179969de7">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="lay79ca5391-3b22-468c-9621-3e24b0cd4765">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat0ffb0cc0-cffe-40dd-919b-48c3f43e1eeb">
+                <parts name="マント001-03">
+                    <color>
+                        <layer refid="lay131f0988-9dd1-4e97-a25d-8e42264ec784">
+                            <color-group group="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="0.22" saturation="-0.29"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                        <layer refid="layb59d7e85-0edc-4d15-94a6-8ec05d5700ed">
+                            <color-group group="cgc5bb7a88-baef-4bcc-bd93-57c9f0e50558" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.06" hue="0.22" saturation="-0.29"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="body">
+                <parts name="老人_ベース001-01">
+                    <color>
+                        <layer refid="body_back">
+                            <color-group group="color-skin" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="0.0" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="accessory">
+                <parts name="メガネ001-02">
+                    <color>
+                        <layer refid="layc25a01ee-3efa-4d5a-9d5f-37c50b617875">
+                            <color-group group="cg3b5a0103-56ec-4b51-a6ba-db72fbb5bc9d" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="-0.14" saturation="0.0"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+            <category refid="cat18c1c744-3677-4454-82fc-ccd3151fddb1">
+                <parts name="女_服001_一般人">
+                    <color>
+                        <layer refid="body_front">
+                            <color-group group="color-dress" synchronized="true"/>
+                            <rgb>
+                                <red factor="1.0" gamma="1.0" offset="0"/>
+                                <green factor="1.0" gamma="1.0" offset="0"/>
+                                <blue factor="1.0" gamma="1.0" offset="0"/>
+                                <alpha factor="1.0" gamma="1.0" offset="0"/>
+                            </rgb>
+                            <hsb brightness="0.0" hue="-0.48" saturation="-0.14"/>
+                            <rgb-replace gray="1.0" replace-type="NONE"/>
+                        </layer>
+                    </color>
+                </parts>
+            </category>
+        </preset>
+    </presets>
+</character>
