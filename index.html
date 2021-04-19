@@ -78,9 +78,9 @@ window.onload = async () => {
       }
       console.log(s.value);
       const img = new Image();
-      const basepath = "%E3%81%B4%E3%81%BD%E3%82%8432%C3%9732%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%81%E3%83%83%E3%83%97%E7%B4%A0%E6%9D%90(%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8BJ%E7%94%A8)";
-      // const basepath = encodeURIComponent("ぴぽや32×32キャラチップ素材(キャラクターなんとかJ用)");
-      const path = "./res/" + basepath + "/CharacterManaJ_0.998/characters/" + encodeURIComponent(chsel.selectedOptions[0].textContent) + "/" + encodeURIComponent(s.imgdir) + "/" + encodeURIComponent(s.value);
+      //const basepath = "%E3%81%B4%E3%81%BD%E3%82%8432%C3%9732%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%81%E3%83%83%E3%83%97%E7%B4%A0%E6%9D%90(%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8BJ%E7%94%A8)";
+      const basepath = encodeURI("ぴぽや32×32キャラチップ素材(キャラクターなんとかJ用)");
+      const path = "./res/" + basepath + "/CharacterManaJ_0.998/characters/" + encodeURI(chsel.selectedOptions[0].textContent) + "/" + encodeURI(s.imgdir) + "/" + encodeURI(s.value);
       //const path = "";
       console.log(path);
       img.src = path;
