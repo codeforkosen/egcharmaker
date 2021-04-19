@@ -35,38 +35,38 @@ window.onload = async () => {
     opt.textContent = s;
     opt.list = chlist[s];
     chsel.appendChild(opt);
-    chsel.onchange = function () {
-      sels = [];
-      const d = this.selectedOptions[0].list;
-      clear(optdiv);
-      for (const s in d) {
-        if (!d[s]) {
-          continue;
-        }
-        console.log(s);
-        const div = cr("div");
-        optdiv.appendChild(div);
-        const lbl = cr("span");
-        lbl.textContent = s;
-        div.appendChild(lbl);
-        const optsel = cr("select");
-        optsel.onchange = draw;
-        optsel.imgdir = s;
-        sels.push(optsel);
-        div.appendChild(optsel);
-        const d2 = d[s];
-        const opt = cr("option");
-        opt.textContent = "-";
-        optsel.appendChild(opt);
-        for (const s2 in d2) {
-          const opt = cr("option");
-          opt.textContent = s2;
-          optsel.appendChild(opt);
-        }
-      }
-      draw();
-    };
   }
+  chsel.onchange = () => {
+    sels = [];
+    const d = chsel.selectedOptions[0].list;
+    clear(optdiv);
+    for (const s in d) {
+      if (!d[s]) {
+        continue;
+      }
+      console.log(s);
+      const div = cr("div");
+      optdiv.appendChild(div);
+      const lbl = cr("span");
+      lbl.textContent = s;
+      div.appendChild(lbl);
+      const optsel = cr("select");
+      optsel.onchange = draw;
+      optsel.imgdir = s;
+      sels.push(optsel);
+      div.appendChild(optsel);
+      const d2 = d[s];
+      const opt = cr("option");
+      opt.textContent = "-";
+      optsel.appendChild(opt);
+      for (const s2 in d2) {
+        const opt = cr("option");
+        opt.textContent = s2;
+        optsel.appendChild(opt);
+      }
+    };
+    draw();
+  };
 
   const draw = () => {
     console.log("draw");
@@ -78,7 +78,7 @@ window.onload = async () => {
       }
       console.log(s.value);
       const img = new Image();
-      const path = "./res/ぴぽや32×32キャラチップ素材(キャラクターなんとかJ用)/CharacterManaJ_0.998/characters/" + chsel.selectedOptions[0].textContent + "/" + s.imgdir + "/" + s.value;
+      const path = "./res/" + encodeURIComponent("ぴぽや32×32キャラチップ素材(キャラクターなんとかJ用)") + "/CharacterManaJ_0.998/characters/" + encodeURIComponent(chsel.selectedOptions[0].textContent) + "/" + encodeURIComponent(s.imgdir) + "/" + encodeURIComponent(s.value);
       //const path = "";
       console.log(path);
       img.src = path;
@@ -86,6 +86,8 @@ window.onload = async () => {
       imgdiv.appendChild(img);
     }
   };
+
+  chsel.onchange();
 };
 </script>
 
