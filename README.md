@@ -1,5 +1,6 @@
 # egcharmaker
 http://codeforkosen.github.io/egcharmaker/  
+* 日本語ファイル名の関係で調整中  
 
 ## キャラクター
 ぴぽや倉庫  
